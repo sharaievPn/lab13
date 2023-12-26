@@ -14,10 +14,10 @@ public class Main {
 
         MessageSender messageSender = new MessageSender();
 
-        messageSender.send("Hello from the Adapter Pattern!"
-                , twitterUserAdapter, "USA");
-        messageSender.send("Hello from the Adapter Pattern!"
-                , facebookUserAdapter, "USA");
+        messageSender.send("Hello from the Adapter Pattern!",
+                twitterUserAdapter, "USA");
+        messageSender.send("Hello from the Adapter Pattern!",
+                facebookUserAdapter, "USA");
     }
 }
 
