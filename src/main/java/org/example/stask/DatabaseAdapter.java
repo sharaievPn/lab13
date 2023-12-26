@@ -1,7 +1,6 @@
 package org.example.stask;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
 
 @AllArgsConstructor
 public class DatabaseAdapter {

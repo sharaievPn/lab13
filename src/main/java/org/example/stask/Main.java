@@ -6,7 +6,8 @@ public class Main {
         Авторизація авторизація = new Авторизація();
 
         DatabaseAdapter databaseAdapter = new DatabaseAdapter(db);
-        AuthorizationAdapter authorizationAdapter = new AuthorizationAdapter(авторизація);
+        AuthorizationAdapter authorizationAdapter =
+                new AuthorizationAdapter(авторизація);
 
         if (authorizationAdapter.authenticate(databaseAdapter)) {
             ReportBuilder br = new ReportBuilder(databaseAdapter);

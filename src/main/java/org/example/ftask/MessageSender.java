@@ -2,7 +2,8 @@ package org.example.ftask;
 
 public class MessageSender {
     public void send(String text, UserAdapter user, String country) {
-        if (user.getCountry().equals(country) && isActiveRecently(user.getLastActiveTime())) {
+        if (user.getCountry().equals(country)
+                && isActiveRecently(user.getLastActiveTime())) {
             System.out.println("The message is good to be sent");
             sendEmail(text, user.getUserMail());
         } else {

@@ -11,11 +11,14 @@ public class Company {
     private String logoUrl;
 
     public String toString() {
-        return "Company{" +
-                "name='" + getName() + '\'' +
-                ", description='" + getDescription() + '\'' +
-                ", logoUrl='" + getLogoUrl() + '\'' +
-                '}';
+        return "Company{"
+                + "name='"
+                + getName() + '\''
+                + ", description='"
+                + getDescription() + '\''
+                + ", logoUrl='"
+                + getLogoUrl() + '\''
+                + '}';
     }
 }
 
